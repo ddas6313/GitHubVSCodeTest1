@@ -8,7 +8,7 @@ terraform {
   }
 
   
-  cloud {
+ backend "remote" {
     organization = "SREYO"
 
     workspaces {
